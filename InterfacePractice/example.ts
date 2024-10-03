@@ -1,3 +1,4 @@
+/*
 interface Person {
     name: string;
     age: number;
@@ -15,4 +16,13 @@ interface Person {
     age: 25,
     // email is optional, so it's not provided here
   };
-  
+  */
+
+  interface Shape {
+    getArea: () => number;
+  }
+
+const hee: Shape = {
+    getArea: () => 0
+}  
+
